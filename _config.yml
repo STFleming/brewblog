@@ -1,0 +1,39 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Gems
+gems: [jekyll-paginate]
+
+# Setup
+title:               CASFridayHacking
+tagline:             documenting the ICL circuits and systems hack sessions
+url:
+paginate: 5
+paginate_path: "page:num"
+baseurl:             "/brewblog"
+
+#Pages
+page_list:
+  About: '/about'
+  Archive: '/archive'
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Shane Fleming
+  url:               http://stfleming.github.io
+  email:             shane.fleming06@imperial.ac.uk
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/stfleming
